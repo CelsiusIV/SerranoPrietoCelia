@@ -8,6 +8,16 @@
  * 
  */
 
+  /**
+   * Funcion que calcula el area de un cuadrado
+   * 
+   * @param float $lado : lado del cuadrado
+   * 
+   * @return float : Area del cuadrado
+   */
+  function crearAreaCuadrado (float $lado): float{
+    return $lado * $lado;
+  }
 
  /**
   * Funcion que calcula el area de un rectangulo
